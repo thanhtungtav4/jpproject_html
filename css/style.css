@@ -2174,6 +2174,10 @@ a:hover , .read_more:hover p , .footer_box_ul li:hover a{
 .business_item {
     margin-bottom: 20px;
 }
+.box_solution{
+    width: fit-content;
+    margin: auto;
+}
 label {
     font-family: Roboto;
     font-style: normal;
@@ -2185,6 +2189,10 @@ label {
     display: inline-block;
     margin-top: .5rem;
     margin-bottom: .4rem;
+}
+.dental{
+    text-align: center;
+    margin: 0 auto;
 }
 .thumbs_avata img{
     max-width: 52px;
@@ -2200,6 +2208,18 @@ label {
 @media screen and (max-width: 992px) {
     .map_txt{
         display: none!important;
+    }
+    .text_home {
+        top: 9%;
+    }
+    .banner {
+        height: 70vh;
+    }
+    .abt-txt {
+        width: 80%;
+    }
+    .col-md-2 .from_contact {
+        font-size: 21px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -2222,6 +2242,9 @@ label {
         display: contents;
         text-align: center;
     }
+    .banner {
+        height: 117vh;
+    }
 }
 @media screen and (max-width: 500px){
     .home_box .icon_box {
@@ -2240,7 +2263,7 @@ label {
         top: 10%;
     }
     .banner {
-        height: 85vh;
+        height: 118vh;
     }
 }
 @media screen and (max-width: 425px) {
