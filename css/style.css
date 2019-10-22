@@ -2027,6 +2027,68 @@ h5{
 }
 .item_solution_box{
     margin-bottom: 20px;
+    text-align: center;
+}
+.map_icon_contact:before{
+    content: url("../images/icon-business/map.png");
+    display: block;
+    margin-right: 9px;
+
+}
+.map_icon_contact{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+}
+.home_box .icon_box .item_icon{
+    background: unset;
+}
+.home_box .icon_box .item_icon:hover{
+    background: unset;
+}
+.home_box .icon_box .item_icon img{
+    max-width: 100%;
+}
+.home_box .icon_box{
+    top: 19%;
+}
+.title_img_home{
+    position: absolute;
+    bottom: 19%;
+    color: #ffffff;
+}
+.works_h4{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: black;
+    margin: 15px 0;
+}
+.contact_box_section{
+    margin-top: -40px;
+}
+.btn_contact_form {
+    background: #ffffff;
+    color: red;
+    border: 1px solid red;
+    padding: 7px 40px;
+}
+.works_box .item_solution_box h5{
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    color: #000000;
+}
+.works_box .item_solution_box h5:hover{
+    color: red;
+    font-weight: bold;
 }
 a:hover , .read_more:hover p , .footer_box_ul li:hover a{
     color: red;
