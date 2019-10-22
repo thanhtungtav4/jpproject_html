@@ -243,7 +243,7 @@ h4{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    height: 100vh;
+    height: 133vh;
     position: relative;
 }
 .text_banner{
@@ -2054,6 +2054,9 @@ h5{
 .home_box .icon_box{
     top: 19%;
 }
+.home_box .community-images{
+    padding: 0;
+}
 .title_img_home{
     position: absolute;
     bottom: 19%;
@@ -2204,6 +2207,9 @@ label {
         font-size: 18px;
         line-height: 24px;
     }
+    .text_home {
+        top: 9%;
+    }
 }
 @media screen and (max-width: 600px) {
     .icon_text{
@@ -2217,13 +2223,38 @@ label {
         text-align: center;
     }
 }
+@media screen and (max-width: 500px){
+    .home_box .icon_box {
+        top: 5%;
+    }
+    .title_img_home {
+        position: absolute;
+        bottom: 5%;
+        color: #ffffff;
+    }
+    .text_home {
+        position: absolute;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 10%;
+    }
+    .banner {
+        height: 85vh;
+    }
+}
 @media screen and (max-width: 425px) {
     .icon_box .item_icon {
          margin: 0;
     }
 }
 @media screen and (max-width: 375px) {
-
+    .title_img_home {
+        position: absolute;
+        bottom: 0%;
+        font-size: 12px;
+        color: #ffffff;
+    }
 }
 @media screen and (max-width: 320px) {
 
