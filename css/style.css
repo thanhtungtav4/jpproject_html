@@ -243,7 +243,7 @@ h4{
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
-    height: 133vh;
+    padding: 4rem;
     position: relative;
 }
 .text_banner{
@@ -278,8 +278,8 @@ h4{
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 2rem;
+    line-height: 2.2rem;
     align-items: center;
     text-align: center;
     color: #ffffff;
@@ -291,11 +291,7 @@ h4{
     right: 0;
 }
 .text_home{
-    position: absolute;
-    margin: 0 auto;
-    left: 0;
-    right: 0;
-    top: 18%;
+    padding-top: 55px;
 }
 .box_service{
     text-align: left;
@@ -2212,9 +2208,6 @@ label {
     .text_home {
         top: 9%;
     }
-    .banner {
-        height: 70vh;
-    }
     .abt-txt {
         width: 80%;
     }
@@ -2242,13 +2235,10 @@ label {
         display: contents;
         text-align: center;
     }
-    .banner {
-        height: 117vh;
-    }
 }
 @media screen and (max-width: 500px){
     .home_box .icon_box {
-        top: 5%;
+        top: 25%;
     }
     .title_img_home {
         position: absolute;
@@ -2256,14 +2246,10 @@ label {
         color: #ffffff;
     }
     .text_home {
-        position: absolute;
         margin: 0 auto;
         left: 0;
         right: 0;
         top: 10%;
-    }
-    .banner {
-        height: 118vh;
     }
 }
 @media screen and (max-width: 425px) {
